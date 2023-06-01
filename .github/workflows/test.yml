@@ -1,0 +1,14 @@
+name: Run unit tests
+on:
+  - pull_request
+
+jobs:
+  run-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Git repository
+        uses: actions/checkout@v3
+      - name: Run formatting checks
+        run: cargo fmt --check
+      - name: Run Clippy checks
+        run: cargo clippy -- -D warnings
