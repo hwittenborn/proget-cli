@@ -1,6 +1,6 @@
 [package]
 name = "pg"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 
 [dependencies]
@@ -9,7 +9,7 @@ colored = "2.0.0"
 exitcode = "1.1.2"
 hw-msg = { version = "0.4.0", features = ["logging"] }
 log = "0.4.18"
-proget = { version = "0.2.0" }
+proget = { version = "0.2.1", default-features = false, features = ["rustls"] }
 quit = "1.1.4"
 tokio = { version = "1.28.2", features = ["full"] }
 url = { version = "2.3.1" }

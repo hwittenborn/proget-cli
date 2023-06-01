@@ -6,5 +6,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.1] - 2023-06-01
+### Changed
+- Change TLS library from `openssl` to `rustls`.
+
 ## [0.1.0] - 2023-06-01
 First release! 🥳
