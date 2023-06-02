@@ -413,6 +413,7 @@ checksum = "bd070e393353796e801d209ad339e89596eb4c8d430d18ede6a1cced8fafbd99"
 dependencies = [
  "autocfg",
  "hashbrown",
+ "serde",
 ]
 
 [[package]]
@@ -593,11 +594,12 @@ dependencies = [
 
 [[package]]
 name = "proget"
-version = "0.2.3"
+version = "0.2.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "a1a7a70f51a78c5c5103463d305e67155f410f26f9709a77e4a82a6b0dc54509"
+checksum = "370dbe3ae7bde629e30ae1d3422a6371ac135be21626ab78f73b7d4b6652be97"
 dependencies = [
  "base64 0.13.1",
+ "indexmap",
  "reqwest",
  "semver",
  "serde",

@@ -6,6 +6,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.3] - 2023-06-01
+### Changed
+- Ensure ordering of extension list in `pg health` output.
+
+## [0.1.2] - 2023-06-01
+### Fixed
+- Fix invalid feature set for 'proget' dependency.
+
 ## [0.1.1] - 2023-06-01
 ### Changed
 - Change TLS library from `openssl` to `rustls`.
